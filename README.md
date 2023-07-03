@@ -8,12 +8,12 @@
 
     $ dotnet tool install -g x
 
-    $ x new web ProjectName
+    $ x new web Chinook
 
 Alternatively write new project files directly into an empty repository, using the Directory Name as the ProjectName:
 
-    $ git clone https://github.com/<User>/<ProjectName>.git
-    $ cd <ProjectName>
+    $ git clone https://github.com/<User>/Chinook.git
+    $ cd Chinook
     $ x new web
 
 ### Update Server TypeScript DTOs
