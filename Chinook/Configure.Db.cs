@@ -14,8 +14,7 @@ public class ConfigureDb : IHostingStartup
     public void Configure(IWebHostBuilder builder) => builder
         .ConfigureServices((context, services) => {
             services.AddSingleton<IDbConnectionFactory>(new OrmLiteConnectionFactory(
-                context.Configuration.GetConnectionString("DefaultConnection")
-                ?? "chinook.sqlite", 
+                "chinook.sqlite", 
                 SqliteDialect.Provider));
         })
         .ConfigureAppHost(appHost => {
