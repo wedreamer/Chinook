@@ -28,8 +28,10 @@ https://localhost:5001/metadata
 # 服务器安装 docker, docker compose
 # 生成 nginx 部署脚本
 x mix build release-ghr-vanilla
+# 更改邮箱
 # 上传到目标服务器执行
-scp ./.deploy/nginx-proxy-compose.yml tencentCloud:~/nginx/nginx-proxy-compose.yml
+mkdir nginx
+scp ./.deploy/nginx-proxy-compose.yml tencentCloud:~/nginx
 cd ~/nginx
 docker compose -f ./nginx-proxy-compose.yml up -d
 # github action 相关变量

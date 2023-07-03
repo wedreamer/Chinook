@@ -14,7 +14,7 @@ To get this working, a server needs to be setup with the following:
 - docker-compose
 - ports 443 and 80 for web access of your hosted application
 
-This can be your own server or any cloud hosted server like Digital Ocean, AWS, Azure etc. 
+This can be your own server or any cloud hosted server like Digital Ocean, AWS, Azure etc.
 
 When setting up your server, you'll want to use a dedicated SSH key for access to be used by GitHub Actions. GitHub Actions will need the *private* SSH key within a GitHub Secret to authenticate. This can be done via ssh-keygen and copying the public key to the authorized clients on the server.
 
@@ -32,6 +32,7 @@ This will run an nginx reverse proxy along with a companion container that will 
 The `release.yml` uses the following secrets.
 
 - DEPLOY_HOST - hostname used to SSH to, this can either be an IP address or subdomain with A record pointing to the server.
+- DEPLOY_PORT - SSH port, usually `22`.
 - DEPLOY_USERNAME - the username being logged into via SSH. Eg, `ubuntu`, `ec2-user`, `root` etc.
 - DEPLOY_KEY - SSH private key used to remotely access deploy server/app host.
 - LETSENCRYPT_EMAIL - Email address, required for Let's Encrypt automated TLS certificates.
