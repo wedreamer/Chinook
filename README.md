@@ -15,9 +15,9 @@ x mix autocrudgen sqlite chinook.sqlite
 # 改变 Configure.Db.cs
 
 # 启动查看相关信息
-
+https://localhost:5001/
 # 查看元数据
-
+https://localhost:5001/metadata
 ```
 
 
