@@ -16,8 +16,9 @@ x mix autocrudgen sqlite chinook.sqlite
 
 # 启动查看相关信息
 https://localhost:5001/
+https://chinook.shubuzuo.top
 # 查看元数据
-https://localhost:5001/metadata
+https://chinook.shubuzuo.top/metadata
 ```
 
 
