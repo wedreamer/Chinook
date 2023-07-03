@@ -15,6 +15,7 @@ Alternatively write new project files directly into an empty repository, using t
     $ git clone https://github.com/<User>/Chinook.git
     $ cd Chinook
     $ x new web
+    $ x mix autocrudgen sqlite chinook.sqlite
 
 ### Update Server TypeScript DTOs
 
