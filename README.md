@@ -14,7 +14,13 @@ cd Chinook
 x mix autocrudgen sqlite chinook.sqlite
 # 改变 Configure.Db.cs
 
+# 启动查看相关信息
+
+# 查看元数据
+
 ```
+
+
 
 ## 部署
 
