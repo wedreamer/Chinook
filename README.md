@@ -20,7 +20,11 @@ https://chinook.shubuzuo.top
 # 查看元数据
 https://chinook.shubuzuo.top/metadata
 
-# studio 查看相关信息
+# ServiceStack studio 查看相关信息
+dotnet tool install -g app
+app open studio
+
+# admin ui
 
 ```
 
