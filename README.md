@@ -45,6 +45,9 @@ LETSENCRYPT_EMAIL shubuzuo@gmail.com
 sudo groupadd docker
 sudo usermod -aG docker $USER
 sudo systemctl restart docker
+# 可能遇到的问题
+scp ./Chinook/chinook.sqlite tencentCloud:~/data
+docker cp chinook.sqlite 容器id:app/chinook.sqlite
 ```
 
 ## 附加: docker, docker compose 在 ubuntu 22.04 LTS 中的安装 [docker 安装](https://docs.docker.com/engine/install/ubuntu/)
