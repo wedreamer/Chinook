@@ -19,6 +19,9 @@ https://localhost:5001/
 https://chinook.shubuzuo.top
 # 查看元数据
 https://chinook.shubuzuo.top/metadata
+
+# studio 查看相关信息
+
 ```
 
 
@@ -91,3 +94,7 @@ Source: Conversation with Bing, 2023/7/3
 (2) 如何在 Ubuntu 20.04 上安装和使用 Docker Compose - 知乎. https://zhuanlan.zhihu.com/p/144449564.
 (3) 如何在 Ubuntu 22.04 LTS 中安装 Docker 和 Docker Compose .... https://www.51cto.com/article/715086.html.
 (4) 如何在 Ubuntu 22.04 LTS 中安装 Docker 和 Docker Compose .... https://zhuanlan.zhihu.com/p/547169542.
+
+## 参考
+
+[Servicify an existing RDBMS with C# AutoQuery .NET APIs and Deploy with GitHub Actions](https://www.youtube.com/watch?v=NaJ7TW-Q_pU)
