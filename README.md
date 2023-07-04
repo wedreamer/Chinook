@@ -42,6 +42,7 @@ DEPLOY_USERNAME ubuntu
 DEPLOY_KEY 
 LETSENCRYPT_EMAIL shubuzuo@gmail.com
 # 将当前用户添加到 docker 和 docker compose 中去
+sudo groupadd docker
 sudo usermod -aG docker $USER
 sudo systemctl restart docker
 ```
